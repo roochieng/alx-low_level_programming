@@ -16,14 +16,14 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		putchar(i);
-		a++;
+		putchar(b);
+		b++;
 	}
 	a = '1';
 	for (i = 0; i < 6; i++)
 	{
-		putchar('0' + a);
-		a++;
+		putchar('0' + b);
+		b++;
 	}
 	putchar('\n');
 	return (0);
