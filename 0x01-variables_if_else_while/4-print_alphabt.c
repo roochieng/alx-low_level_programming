@@ -7,7 +7,6 @@
  * Return: alway returns 0
  *
  */
-
 int main(void)
 {
 	char i;
@@ -18,9 +17,8 @@ int main(void)
 		{
 			continue;
 		}
-	
 		putchar(i);
-	}	
+	}
 	putchar('\n');
 	return (0);
 }
