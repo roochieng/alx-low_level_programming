@@ -19,7 +19,7 @@ int main(void)
 		putchar(b);
 		b++;
 	}
-	a = '1';
+	b = '1';
 	for (i = 0; i < 6; i++)
 	{
 		putchar('0' + b);
