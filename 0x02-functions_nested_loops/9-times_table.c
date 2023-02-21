@@ -16,7 +16,7 @@ void times_table(void)
 		for (b = 0; b <= 9; b++)
 		{
 			int times = a * b;
-			if (b =0)
+			if (b = 0)
 			{
 				_putchar('0');
 			} else if(times < 9)
