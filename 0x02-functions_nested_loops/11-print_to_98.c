@@ -1,6 +1,6 @@
 #include "main.h"
 #include "6-abs.c"
-
+#include <stdio.h>
 /**
  * print_to_98 - prints numbers from n to 98
  * @n: first num
