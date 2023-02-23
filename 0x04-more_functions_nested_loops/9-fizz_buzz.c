@@ -22,11 +22,14 @@ int fizzbuzz(void)
 		{
 			printf("Fizz ");
 		}
-		else (i % 5 == 0)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz ");
 		}
-		printf("%d ", i);
+		else
+		{
+			printf("%d ", i);
+		}
 	}
 	printf("\n");
 	return (0);
