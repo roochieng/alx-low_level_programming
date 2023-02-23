@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * fizzbuzz - prints 1-100 with multiples of 3 and 5 replaced
+ * main - prints 1-100 with multiples of 3 and 5 replaced
  * Return: 0
  */
 int main(void)
