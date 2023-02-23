@@ -13,11 +13,10 @@ void print_diagonal(int n)
 	{
 		_putchar('\\');
 
-		for (spc = 0; spc = i + spc; spc++)
+		for (spc = 0; spc < i; spc++)
 		{
 			_putchar(' ');
 		}
 		_putchar('\n');
 	}
-	_putchar('\n');
 }
