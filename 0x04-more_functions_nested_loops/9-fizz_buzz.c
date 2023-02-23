@@ -4,7 +4,7 @@
  * fizzbuzz - prints 1-100 with multiples of 3 and 5 replaced
  * Return: 0
  */
-void fizzbuzz(void)
+int fizzbuzz(void)
 {
 	int i;
 
