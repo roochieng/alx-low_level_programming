@@ -7,7 +7,7 @@ include "main.h"
  * @a: first integer
  * @b: second integer
  *
- * Return: 0
+ * Return: result
  */
 int mul(int a, int b)
 {
