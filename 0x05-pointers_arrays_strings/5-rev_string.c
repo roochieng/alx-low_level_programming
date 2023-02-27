@@ -20,6 +20,6 @@ void rev_string(char *s)
 		count--;
 		c = s[b];
 		s[b] = s[count];
-		s[count] = c
+		s[count] = c;
 	}
 }
