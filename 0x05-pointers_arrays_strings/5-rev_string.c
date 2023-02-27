@@ -7,12 +7,13 @@
  */
 void rev_string(char *s)
 {
-	int a;
+	int b;
+	char c;
 
-	for (a = _strlen(s) - 1; a >= 0; a--)
+	for (b = 0; b < _strlen(s) / 2; b++)
 	{
-		_putchar(s[a]);
+		t = s[b];
+		s[b] = s[_strlen(s) - b - 1];
+		s[_strlen(s) - b - 1] = c;
 	}
-	_putchar('\n');
-
 }
