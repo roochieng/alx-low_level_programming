@@ -11,5 +11,5 @@ int _strlen(char *s)
 	for (a = 0; s[a] != '0'; a++)
 	{
 	}
-	return (i);
+	return (a);
 }
