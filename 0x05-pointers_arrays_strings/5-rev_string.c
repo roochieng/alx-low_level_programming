@@ -14,7 +14,7 @@ void rev_string(char *s)
 	{
 		c = s[b];
 		s[b] = s[_strlen(s) - b];
-		c = s[_strlen(s) - b];
+		c = s[_strlen(s) - b -1];
 	}
 	_putchar(c);
 }
