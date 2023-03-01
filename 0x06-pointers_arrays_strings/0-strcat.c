@@ -11,6 +11,7 @@ char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
+	int* address;
 	
 	for(i=0; dest[i]!='\0'; ++i);
 	{}
@@ -20,7 +21,6 @@ char *_strcat(char *dest, char *src)
 		dest[i]=src[j];
 	}
 	dest[i] = '\0';
-	result = dest[i];
-	address = &reselt;
+	address = &dest;
 	return(address);
 }
