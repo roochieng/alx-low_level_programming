@@ -1,6 +1,4 @@
 #include "mian.h"
-#include "2-strlen.c"
-#include "9-strcpy.c"
 /**
  * _strncat - Concatnates two strings
  * @dest: first string
