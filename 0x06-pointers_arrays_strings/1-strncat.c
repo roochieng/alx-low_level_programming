@@ -6,7 +6,7 @@
  * @n: bytes
  * Return: concatnated string
  */
-char *_strncat(char *dest, char *src, int n)
+char main(char *dest, char *src, int n)
 {
 	int i, c;
 
