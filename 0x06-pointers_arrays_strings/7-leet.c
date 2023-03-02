@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * leet - encodes string
- * @str: string
+ * @s: string
  * Return: encoded
  */
-char *leet(char *str)
+char *leet(char *s)
 {
 	int i;
 
