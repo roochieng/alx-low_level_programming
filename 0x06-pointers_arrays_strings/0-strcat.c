@@ -8,6 +8,7 @@
 char *_strcat(char *dest, char *src)
 {
 	int i, c;
+	int * point;
 
 	for (i = 0; dest[i] != '\0'; i++)
 		;
@@ -19,5 +20,6 @@ char *_strcat(char *dest, char *src)
 	}
 
 	dest[i] = '\0';
-	return (dest);
+	point = &dest;
+	return (point);
 }
