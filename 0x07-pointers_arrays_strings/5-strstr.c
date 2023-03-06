@@ -7,25 +7,25 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int i;
-	int j;
+	int i, j, c;
 
-	if (needle[0] == '\0')
-		return (haystack);
-
-	for (i = 0; haystack[i] != '\0'; i++)
+	i = 0;
+	c = 0;
+	while (haystack[i] != '\0')
 	{
-		if (haystack[i] == needle[0])
+		j = 0;
+		while (needle[j + c] != '\0' && haystack[i + c] != '\0'
+		       && needle[j + c] == haystack[i + c])
 		{
-			for (j = 0; needle[j] != '\0'; j++)
-			{
-				if (haystack[i + j] != needle[j])
-					break;
-			}
-			if (needle[j] == '\0')
-				return (haystack + i);
+			if (haystack[i + c] != needle[j + c])
+				break;
+			c++;
 		}
-
+		if (needle[j + c] == '\0')
+			return (&haystack[i]);
+		j++;
+		i++;
 	}
-	return ('\0');
+
+	return (NULL);
 }
