@@ -4,10 +4,6 @@
  * @n: number
  * Return: 0
  */
-int _sqrt_recursion(int n)
-{
-	return (halp(n, 1));
-}
 
 /**
  * halp - helper function to solve _sqrt_recursion
@@ -27,3 +23,8 @@ int halp(int c, int a)
 	else
 		return (-1);
 }
+int _sqrt_recursion(int n)
+{
+	return (halp(n, 1));
+}
+
