@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _sqrt_recursion - square root of a number
- * @m: number
+ * @n: number
  * Return: 0
  */
 int _sqrt_recursion(int n)
@@ -12,10 +12,9 @@ int _sqrt_recursion(int n)
 /**
  * halp - helper function to solve _sqrt_recursion
  * @c: number to determine if square root
- * @i: incrementer to compare against `c`
+ * @a: incrementer to compare against `c`
  * Return: square root if natural square root, or -1 if none found
  */
-
 int halp(int c, int a)
 {
 	int square;
