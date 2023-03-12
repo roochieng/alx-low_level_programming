@@ -1,5 +1,4 @@
 #include "main.h"
-#include "2-strlen.c"
 /**
  * _strcpy -copy
  * @dest:where to copy
@@ -8,11 +7,17 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int i;
+	int l = 0;
+	int x = 0;
 
-	for (i = 0; i <= _strlen(src); i++)
+	while (*(src + l) != '\0')
 	{
-		dest[i] = src[i];
+		l++;
 	}
+	for (; x < l; x++)
+	{
+		dest[x] = src[x];
+	}
+	dest[l] = '\0';
 	return (dest);
 }
