@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _strpbrk - search string for any of a set bytes
+ * _strstr - search string for any of a set bytes
  * @haystack: string
  * @needle: bytes
  * Return: 0
  */
-char *_strpbrk(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 	int i, j, c;
 
@@ -27,5 +27,5 @@ char *_strpbrk(char *haystack, char *needle)
 		i++;
 	}
 
-	return (NULL);
+	return (0);
 }
