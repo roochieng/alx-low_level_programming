@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strpbrk - search string for any of a set bytes
- * @s: string
- * @accept: bytes
+ * @haystack: string
+ * @needle: bytes
  * Return: 0
  */
 char *_strpbrk(char *haystack, char *needle)
