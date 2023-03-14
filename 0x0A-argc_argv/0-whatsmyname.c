@@ -7,7 +7,7 @@
  * @argc: argument idexes
  * Return: 0
  */
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	UNUSED(argc);
 	printf("%s\n", argv[0]);
