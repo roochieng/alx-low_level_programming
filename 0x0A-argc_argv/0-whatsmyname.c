@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 #define UNUSED(x) (void)(x)
 /**
  * main - main funtion that prints itself
