@@ -11,7 +11,6 @@ int main(int argc, char *argv[])
 {
 	int i;
 	int result = 0;
-	bool a = true
 
 	if (argc == 1)
 	{
@@ -19,7 +18,7 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		if (atoi(argv[i]) == a)
+		if (sizeof(atoi(argv[i])) == 4)
 		{
 			result += atoi(argv[i]);
 		}
