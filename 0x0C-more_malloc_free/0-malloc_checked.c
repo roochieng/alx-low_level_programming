@@ -3,9 +3,9 @@
 #include <limits.h>
 
 /**
- * malloc_checked - allocate memory using malloc
+ * malloc_checked - allocate memory using malloc with exit 98 if error
  * @b: memory
- * Return: 0 for success and 98 for error
+ * Return: pointer
  */
 void *malloc_checked(unsigned int b)
 {
