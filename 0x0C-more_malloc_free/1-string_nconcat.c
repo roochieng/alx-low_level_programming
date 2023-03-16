@@ -4,7 +4,7 @@
 
 /**
  * string_nconcat - Concatenates two strings
- * @S1: String 1
+ * @s1: String 1
  * @s2: string 2
  * @n: bytes
  * Return: pointer to newly allocated space in mem
