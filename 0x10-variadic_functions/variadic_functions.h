@@ -21,8 +21,7 @@ void _printint(va_list list);
 typedef struct checker
 {
 	char *type;
-	void (*f)();
+	void (*f)(va_list list);
 } checker;
 
 #endif
-
