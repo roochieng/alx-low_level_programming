@@ -3,16 +3,16 @@
 
 /**
  * print_list - print all elements of `list_t` list
- * @j: head of linked list
+ * @h: head of linked list
  * Return: number of nodes
  */
-size_t print_list(const list_t *j)
+size_t print_list(const list_t *h)
 {
 	const list_t *current;
 	size_t c;
 
 	c = 0;
-	current = j;
+	current = h;
 	while (current != NULL)
 	{
 		printf("[%d] %s\n", current->len, current->str);
