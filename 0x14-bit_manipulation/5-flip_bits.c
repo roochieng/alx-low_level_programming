@@ -1,4 +1,4 @@
-#define "main.h"
+#include "main.h"
 
 /**
  * flip_bits - flip bits to convert one number to another number
