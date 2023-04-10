@@ -40,8 +40,7 @@ int main(int ac, char *av[])
 				exit(99);
 			}
 		}
-	}
-	while (istatus > 0);
+	} while (istatus > 0);
 	istatus = close(input_fd);
 	if (istatus == -1)
 		dprintf(SE, "Error: Can't close fd %d\n", input_fd), exit(100);
